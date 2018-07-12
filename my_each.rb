@@ -7,4 +7,4 @@ def my_each(item) # put argument(s) here
   item
 end
 
-my_each({1, 2, 3, 4}) { |i| puts i}
+my_each([1, 2, 3 , 4]) { |i| puts i}
