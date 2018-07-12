@@ -1,9 +1,10 @@
-def my_each(array) # put argument(s) here
+def my_each(item) # put argument(s) here
   # code here
-  while i < array.length
-    yield array[i]
+  while i < item.length
+    yield item[i]
     i += 1
   end
+  item
 end
 
-my_each(array) { |i| puts i}
+my_each(item) { |i| puts i}
